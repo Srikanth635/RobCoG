@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UMongoC",
+	"Description": "Third party plugin with mongo c driver",
+	"Category": "RobCoG",
+	"CreatedBy": "Andrei Haidu",
+	"CreatedByURL": "http://haidu.eu",
+	"DocsURL": "https://github.com/robcog-iai/UMongoC",
+	"MarketplaceURL": "http://robcog.org/",
+	"SupportURL": "http://robcog.org/",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UMongoC",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

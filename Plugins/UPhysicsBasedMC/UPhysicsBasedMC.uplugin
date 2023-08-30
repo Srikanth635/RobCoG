@@ -1,0 +1,49 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UPhysicsBasedMC",
+	"Description": "",
+	"Category": "RobCoG",
+	"CreatedBy": "Andrei Haidu",
+	"CreatedByURL": "http://haidu.eu",
+	"DocsURL": "https://github.com/robcog-iai/UPhysicsBasedMC",
+	"MarketplaceURL": "",
+	"SupportURL": "http://robcog.org/",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UMCPlayer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "UMC6DController",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "UMC6DControllerGUI",
+			"Type": "Editor"
+		},
+		{
+			"Name": "UMCGrasp",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "UMCParallelGripper",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "UMCPIDController",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+  "Plugins": [
+  ]
+}
