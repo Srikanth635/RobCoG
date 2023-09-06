@@ -1,0 +1,8 @@
+SourceContainer,DestinationContainer,PouringTime,RotationSpeed,MinimumAngle,MaximumAngle,SourcePosX,SourcePosY,SourcePosZ,DestPosX,DestPosY,DestPosZ,NumberOfParticles,IsPouringFailed
+SM_BigBowl,SM_MilkPitcher,0.008333,0.5,85.499557,85.99955,0.000015,5.96731,14.215332,False
+SM_BigBowl,SM_MilkPitcher,1.025392,0.5,77.499779,129.499252,0.000015,5.96731,14.215332,True
+SM_BigBowl,SM_MilkPitcher,1.036096,0.5,78.99971,127.499367,0.000015,5.96731,14.215332,True
+SM_BigBowl,SM_MilkPitcher,1.103119,0.5,78.499733,127.999352,0.000015,5.96731,14.215332,True
+SM_BigBowl,SM_MilkPitcher,1.101562,0.5,79.49968,128.499329,0.000015,5.96731,14.215332,True
+SM_BigBowl,SM_MilkPitcher,1.061351,0.5,78.499733,126.499397,0.000015,5.96731,14.215332,True
+
