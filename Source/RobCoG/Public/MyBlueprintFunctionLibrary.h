@@ -13,15 +13,28 @@
 UCLASS()
 class ROBCOG_API UMyBlueprintFunctionLibrary : public UBlueprintFunctionLibrary
 {
-	GENERATED_BODY()
-	
-public:
-    UFUNCTION(BlueprintCallable, Category = "BFL_Constraints")
-        static void GetConstrainedActors(UPhysicsConstraintComponent* PhysicsConstraintComponent, AActor*& ConstraintActor1, AActor*& ConstraintActor2)
-    {
-        ConstraintActor1 = PhysicsConstraintComponent->ConstraintActor1;
+    GENERATED_BODY()
 
-        ConstraintActor2 = PhysicsConstraintComponent->ConstraintActor2;
+public:
+
+    /*UPROPERTY(EditAnywhere, BlueprintReadOnly)
+    static AActor* ConActor1;
+
+    UPROPERTY(EditAnywhere, BlueprintReadOnly)
+        static  AActor* ConActor2;*/
+
+    UFUNCTION(BlueprintCallable, Category = "BFL_Constraints")
+    static FString GetConstrainedActors(UPhysicsConstraintComponent* PhysicsConstraintComponent)
+    {
+        FConstrainComponentPropName comp1 = PhysicsConstraintComponent->ComponentName1;
+        FConstrainComponentPropName comp2 = PhysicsConstraintComponent->ComponentName2;
+
+        FName tag1 = comp1.ComponentName;
+        FName tag2 = comp2.ComponentName;
+
+        FString Tags = tag1.ToString() + " " + tag2.ToString();
+        
+        return Tags;
     }
 	
 };
