@@ -85,6 +85,8 @@ $ git clone --recurse-submodules -b master https://github.com/robcog-iai/RobCoG.
 
 * [Cloudsim](Documentation/CloudsimSetup.md)
 
+* [PouringPatterns](Documentation/PatternPouring.md)
+
 ### Related publications
 
 ```bibtex
