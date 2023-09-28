@@ -64,6 +64,8 @@
   * Have the `PatternSLPouringParticleAgentClass` blueprint actor in the content browser
   * Start the simualtion and try to tilt the container over the break fast plate
 
+  ![PouringGIF](./PouringPatterns/RobCoG_Pouring_original.gif)
+
 ### ToDo
 
   * Thicken the `HoneySLPouringParticleAgentClass` by constraining multiple actors in parallel
