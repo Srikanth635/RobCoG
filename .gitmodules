@@ -1,7 +1,3 @@
-[submodule "Meshes/Private"]
-	path = Meshes/Private
-	url = git@github.com:robcog-iai/PrivateMeshes.git
-	branch = master
 [submodule "Meshes/Public"]
 	path = Meshes/Public
 	url = git@github.com:robcog-iai/PublicMeshes.git
@@ -10,10 +6,6 @@
 	path = Scripts
 	url = git@github.com:robcog-iai/Scripts.git
 	branch = master
-[submodule "Content/Private"]
-	path = Content/Private
-	url = git@github.com:robcog-iai/PrivateContent.git
-	branch = master
 [submodule "Plugins/USemLog"]
 	path = Plugins/USemLog
 	url = git@github.com:robcog-iai/USemLog.git
@@ -21,10 +13,6 @@
 [submodule "Plugins/UPhysicsBasedMC"]
 	path = Plugins/UPhysicsBasedMC
 	url = git@github.com:robcog-iai/UPhysicsBasedMC.git
-	branch = master
-[submodule "Plugins/SRanipal"]
-	path = Plugins/SRanipal
-	url = git@github.com:robcog-iai/SRanipal.git
 	branch = master
 [submodule "Plugins/UMongoC"]
 	path = Plugins/UMongoC
